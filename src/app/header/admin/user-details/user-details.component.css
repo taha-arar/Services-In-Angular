@@ -1,0 +1,60 @@
+/* user-list.component.css */
+.user-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  .user-row div {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .plain-button {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.user-detail-card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.user-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.user-info {
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+.user-info h2 {
+  margin: 0 0 10px;
+}
+
+.user-info p {
+  margin: 5px 0;
+}

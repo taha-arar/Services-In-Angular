@@ -1,0 +1,24 @@
+<!-- user-list.component.html -->
+<div class="user-list">
+    <div class="user-row" *ngFor="let user of users">
+      <div class="user-name" >{{user.name}}</div>
+      <div class="user-gender" >{{user.gender}}</div>
+      <div class="user-subscription" >{{user.subType}}</div>
+      <div class="user-status" >{{user.status}}</div>
+      <div class="user-status"><button class="plain-button" (click)="showPopup(user)">+</button></div>
+    </div>
+ 
+    
+  </div>
+  <br><br><br>
+
+    <div class="user-detail-card" *ngIf="selectedUser">
+      <img [src]="src" alt="User Avatar" class="user-avatar">
+      <div class="user-info">
+          <h2>User Details</h2>
+          <p><strong>Name:</strong> {{selectedUser.name}}</p>
+          <p><strong>Gender:</strong> {{selectedUser.gender}}</p>
+          <p><strong>Subscription Type:</strong> {{selectedUser.subType}}</p>
+          <p><strong>Status:</strong> {{selectedUser.status}}</p>
+      </div>
+  </div>

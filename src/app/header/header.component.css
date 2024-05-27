@@ -1,0 +1,42 @@
+.header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header nav ul li {
+    margin-left: 20px;
+}
+
+.header nav ul li button {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.header .subscribe-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}

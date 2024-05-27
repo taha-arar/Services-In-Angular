@@ -1,0 +1,19 @@
+/* admin.component.css */
+.admin {
+    background-color: #222;
+    padding: 20px;
+    color: white;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  input, select, button {
+    margin: 5px;
+    padding: 10px;
+    flex: 1;
+  }
+  

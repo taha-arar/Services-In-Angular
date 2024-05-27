@@ -1,0 +1,21 @@
+<!-- admin.component.html -->
+<div class="admin">
+    <div class="form">
+      <input type="text" placeholder="User Name" [(ngModel)]="username"/>
+      <select [(ngModel)]="gender" >
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+      <select  [(ngModel)]="subType">
+        <option value="Monthly">Monthly</option>
+        <option value="Yearly">Yearly</option>
+      </select>
+      <select  [(ngModel)]="status">
+        <option value="Active">Active</option>
+        <option value="Inactive">Inactive</option>
+      </select>
+      <button (click)="saveUser()">CREATE</button>
+    </div>
+    <app-user-details></app-user-details>
+  </div>
+  
